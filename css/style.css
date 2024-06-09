@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url("../images/outros/texturafundo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    color: black;
+}
+
+.cabecalho {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+a {
+    color: black;
+    transition: all 0.3s linear;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.cabecalho nav a {
+    margin-left: 40px;
+}
+
+.cabecalho nav a:hover {
+    color: blue;
+}
+
+.titulo {
+    color: brown;
+    text-align: center;
+    max-width: 1500px;
+}
+
+#imagem-f1 {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    height: 60vh;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 19px;
+    display: flex;
+    margin-top: 30px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#rodape {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 50px;
+    font-family: "Open Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rodape a {
+    color: rgb(57, 57, 247);
+    font-size: 13px;
+}
